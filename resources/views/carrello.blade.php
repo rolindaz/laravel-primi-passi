@@ -27,6 +27,10 @@
     </nav>
     <h1>Welcome to the Carrello Page</h1>
     <p>
+        @php
+            $saluto = "Ciao a tutti!";
+        @endphp
+        {{ $saluto }}
         {{ $cart_info }}
     </p>
 </body>
